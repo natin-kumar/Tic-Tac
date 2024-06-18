@@ -1,0 +1,36 @@
+.col{
+    height: 65px;
+    width: 65px;
+    border: 1px solid black;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    font-size: 40px;
+}
+.row{
+    display: flex;
+}
+.container{
+    margin: 5% 10% 0% 35%;
+    background-color: aquamarine;
+    width: fit-content;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+body{
+    background-color: antiquewhite;
+}
+.input-data{
+    margin: 5% 10% 0% 30%;
+    /* background-color: aliceblue; */
+    width: fit-content;
+
+}
+#result{
+    margin: 5% 10% 0% 30%;
+    font-size: 52px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.turn{
+    margin: 5% 10% 0% 30%;
+}

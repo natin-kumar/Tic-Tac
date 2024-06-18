@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="input-data">
+        <span>Enter player 1 name: </span>
+        <input type="text" name="" id="p1">
+        <br><br>
+        <span>Enter player 2 name: </span>
+        <input type="text" name="" id="p2">
+        <button id="start">Start</button>
+        <br>
+        <div class="turn"></div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div onclick="change(this)" id="0" class="col"></div>
+            <div onclick="change(this)" id="1" class="col"></div>
+            <div onclick="change(this)" id="2" class="col"></div>
+        </div>
+        <div class="row">
+            <div onclick="change(this)" id="3" class="col"></div>
+            <div onclick="change(this)" id="4" class="col"></div>
+            <div onclick="change(this)" id="5" class="col"></div>
+        </div>
+        <div class="row">
+            <div onclick="change(this)" id="6" class="col"></div>
+            <div onclick="change(this)" id="7" class="col"></div>
+            <div onclick="change(this)" id="8" class="col"></div>
+        </div>
+    </div>
+    <div id="result">
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
